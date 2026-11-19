@@ -1,0 +1,74 @@
+﻿=== Query: fungsi.scm (pada contoh_t3.py) ===
+baris 9: salam (0 parameter)
+baris 13: tambah (2 parameter)
+baris 19: sapa_user (2 parameter)
+baris 26: jalankan (2 parameter)
+
+=== Query: print.scm (pada contoh_t3.py) ===
+@fn  baris 10: print
+@args  baris 10: ("Halo")
+@fn  baris 15: print
+@args  baris 15: (hasil)
+@fn  baris 21: print
+@args  baris 21: (teks)
+@fn  baris 28: print
+@args  baris 28: ("Selesai", jumlah)
+@fn  baris 34: print
+@args  baris 34: ("Mulai")
+
+=== Query: import.scm (pada contoh_t3.py) ===
+@modul  baris 1: os
+@modul  baris 2: sys
+@modul  baris 3: urllib.parse
+@modul  baris 4: pathlib
+@modul  baris 5: datetime
+@modul  baris 6: collections
+
+=== Query: semua.scm (pada contoh_t3.py) ===
+@id  baris 1: os
+@id  baris 2: sys
+@id  baris 2: system
+@id  baris 3: urllib
+@id  baris 3: parse
+@id  baris 4: pathlib
+@id  baris 4: Path
+@id  baris 5: datetime
+@id  baris 5: datetime
+@id  baris 5: timedelta
+@id  baris 6: collections
+@id  baris 6: Counter
+@id  baris 6: Hitung
+@id  baris 9: salam
+@id  baris 10: print
+@id  baris 13: tambah
+@id  baris 13: a
+@id  baris 13: b
+@id  baris 14: hasil
+@id  baris 14: a
+@id  baris 14: b
+@id  baris 15: print
+@id  baris 15: hasil
+@id  baris 16: hasil
+@id  baris 19: sapa_user
+@id  baris 19: nama
+@id  baris 19: peran
+@id  baris 20: teks
+@id  baris 20: nama
+@id  baris 20: peran
+@id  baris 21: print
+@id  baris 21: teks
+@id  baris 22: teks
+@id  baris 25: Penguji
+@id  baris 26: jalankan
+@id  baris 26: self
+@id  baris 26: data
+@id  baris 27: jumlah
+@id  baris 27: len
+@id  baris 27: data
+@id  baris 28: print
+@id  baris 28: jumlah
+@id  baris 29: jumlah
+@id  baris 32: __name__
+@id  baris 33: salam
+@id  baris 34: print
+
