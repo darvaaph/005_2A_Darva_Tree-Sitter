@@ -1,0 +1,34 @@
+﻿=== Baseline (has_error=False) ===
+(module (expression_statement (assignment left: (identifier) right: (integer))))
+
+=== Potongan 1: Fungsi (has_error=False) ===
+(module (function_definition name: (identifier) parameters: (parameters (identifier) (identifier)) body: (block (return_statement (binary_operator left: (identifier) right: (identifier))))))
+
+=== Potongan 2: if/else (has_error=False) ===
+(module (if_statement condition: (comparison_operator (identifier) (integer)) consequence: (block (expression_statement (assignment left: (identifier) right: (string (string_start) (string_content) (string_end))))) alternative: (else_clause body: (block (expression_statement (assignment left: (identifier) right: (string (string_start) (string_content) (string_end))))))))
+
+=== Potongan 3: Kelas dengan satu method (has_error=False) ===
+(module (class_definition name: (identifier) body: (block (function_definition name: (identifier) parameters: (parameters (identifier) (identifier)) body: (block (return_statement (binary_operator left: (integer) right: (identifier))))))))
+
+=== Node anak function_definition ===
+children=5, named_children=3
+  'def'                -> anonim
+  'identifier'         -> bernama
+  'parameters'         -> bernama
+  ':'                  -> anonim
+  'block'              -> bernama
+
+=== Node anak parameters ===
+children=5, named_children=2
+  '('                  -> anonim
+  'identifier'         -> bernama
+  ','                  -> anonim
+  'identifier'         -> bernama
+  ')'                  -> anonim
+
+=== Error 1: Hapus ':' setelah parameter (has_error=True) ===
+(module (ERROR (identifier) (parameters (identifier) (identifier)) (return_statement (binary_operator left: (identifier) right: (identifier)))))
+
+=== Error 2: Hapus ')' setelah parameter (has_error=True) ===
+(module (ERROR (identifier) (identifier) (typed_parameter (identifier) (ERROR) type: (type (binary_operator left: (identifier) right: (identifier))))))
+
